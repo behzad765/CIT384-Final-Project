@@ -32,7 +32,7 @@
             scrollingSpeed: 280,
             navigation:false,
             menu: '.navbar-nav',
-            anchors: ['home', 'about', 'experience', 'skills', 'projects', 'partners', 'testimonials', 'news', 'contact'],
+            anchors: ['home', 'about' , 'skills', 'projects' , 'testimonials' , 'contact'],
             afterRender: function(anchorLink, index){ 
               NavbarColor();
 
@@ -95,16 +95,6 @@
         $('.bg-changer .section-bg').removeClass('active').eq(index).addClass('active');
     });
 
-
-    /* Carousel experience*/
-    $('.carousel-experience').owlCarousel({
-        loop:true,
-        margin:45,
-        dots:true,
-        nav:true,
-        smartSpeed:1000,
-        items:1
-    });
 
     /* Carousel testimonials */
     $('.carousel-testimonials').owlCarousel({
