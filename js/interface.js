@@ -22,9 +22,6 @@
     });
 
 
-
-    
-
     /* Full page scroll*/
     if ($('#pagepiling').length > 0){
 
@@ -44,7 +41,6 @@
             }
         });
 
-  
 
         function NavbarColor(){
          if ($('.pp-section.active').hasClass('navbar-is-white')){
@@ -76,15 +72,6 @@
     	$('body').removeClass('menu-is-open');
     	$('.navbar-nav-mobile li a').removeClass('active');
     	$(this).addClass('active');
-    });
-
-    $('.popup-youtube').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
     });
 
 
